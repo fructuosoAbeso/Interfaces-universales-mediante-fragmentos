@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_film"
+        android:title="Nueva película"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="never"
+        android:iconTint="@color/redMenuItem" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="Acerca de"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="never"
+        android:iconTint="@color/redMenuItem" />
+</menu>
