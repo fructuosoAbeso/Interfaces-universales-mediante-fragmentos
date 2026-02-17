@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
 
-    <!-- Toolbar azul -->
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/toolbar"
+    <View
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/blueAppBar"
-        android:title="Filmoteca"
-        android:titleTextColor="@color/white"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        android:layout_height="1dp"
+        android:background="#EEEEEE" />
 
     <ListView
-        android:id="@+id/listPeliculas"
+        android:id="@android:id/list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:divider="#F0F0F0"
+        android:dividerHeight="1dp"
+        android:padding="4dp"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay" />
 </LinearLayout>

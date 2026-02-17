@@ -18,6 +18,8 @@ espressoCore = "3.7.0"
 composeBom = "2025.09.01"
 activityCompose = "1.11.0"
 lifecycleRuntimeKtx = "2.9.4"
+legacySupportV4 = "1.0.0"
+recyclerview = "1.4.0"
 
 [libraries]
 # Android Core
@@ -46,6 +48,8 @@ androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecyc
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

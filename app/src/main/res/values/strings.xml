@@ -15,4 +15,6 @@
     <string name="editar">Editar</string>
     <string name="genero_prompt">Selecciona un género</string>
     <string name="formato_prompt">Selecciona un formato</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
